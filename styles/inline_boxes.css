@@ -1,0 +1,40 @@
+body {
+font-family: sans-serif;
+}
+p {
+border: 5px solid rebeccapurple;
+width: 200px;
+}
+span {
+margin: 10px;
+padding: 10px;
+width: 100px;
+height: 100px;
+background-color: lightblue;
+border: 2px solid blue;
+display: inline-block;
+}
+
+ul {
+font-family: sans-serif;
+display: flex;
+list-style: none;
+border: 5px solid #000;
+/* height: 100px; */
+}
+
+li {
+margin: 20px;
+}
+
+.links-list a {
+background-color: rgb(179 57 81);
+color: #fff;
+text-decoration: none;
+padding: 1em 2em;
+}
+
+.links-list a:hover {
+background-color: rgb(66 28 40);
+color: #fff;
+}
